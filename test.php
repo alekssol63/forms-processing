@@ -47,8 +47,13 @@ if (!empty($_POST["end_test"]))
 ?>
 
 
-
-
+<!DOCTYPE html>
+ <html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+ </head>
+ <body>
 
 
 
@@ -93,4 +98,7 @@ else{ ?>
 <p>Введите номер теста. Например: ?num=1</p>
 <?php };?>
 
-
+</body>
+</html>	 
+	 
+	 
